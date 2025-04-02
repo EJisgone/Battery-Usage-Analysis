@@ -262,3 +262,5 @@ battery_life_estimates = battery_life_estimates[new_column_order]
 battery_life_estimates.to_csv(dir_path.capitalize() + r"\battery-report\battery_life_estimates.csv", index=False)
 
 print("Extraction Complete! Data Saved as CSV Files.")
+print(system_info)
+print(battery_details)
